@@ -1,0 +1,111 @@
+/* h1{
+    text-align: center;
+    background-color: red;
+    color: white;
+} */
+
+/* .bg-red{
+    background-color: red;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#text-end{
+    text-align: end;
+} */
+
+/* universal selector */
+
+/* *{
+    color: red;
+} */
+
+/* type selector */
+
+/* h1, p{
+    text-align: center;
+} */
+
+/* class selector */
+
+/* p.note{
+    text-align: end;
+} */
+
+/* child selector */
+
+/* .parent > a{
+    color: black;
+} */
+
+
+/* Descendant selector */
+
+/* .parent a{
+    color: black;
+} */
+
+
+/* Adjacent Sibling Selector */
+
+/* .parent + a{
+    color: bisque;
+    background-color: black;
+} */
+
+
+/* General Sibling Selector */
+/* 
+.parent ~ a{
+    color: bisque;
+    background-color: black;
+} */
+
+/* *{
+    background-color: rgb(76, 207, 207);
+}
+
+#head-one{
+    background-color: black;
+    color: white;
+}
+
+.head{
+    background-color: red;
+}
+
+h1{
+    background-color: plum  !important; 
+} */
+
+
+
+
+/* h1{
+    background-color: aqua;
+} */
+
+/* body{
+    background-color: black;
+} */
+
+
+/* body{
+    color: white;
+} */
+
+/* div{
+    color: aqua;
+} */
+
+
+body{
+    background-color: #1e293b;
+    color: #723c3c;
+}
