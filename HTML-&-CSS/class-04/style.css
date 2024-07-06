@@ -1,0 +1,116 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+div {
+     border: 10px solid red; 
+     border-width: 20px;
+    border-style: double;
+    border-color: red; 
+
+    border: 20px double red;
+
+     padding: 50px 40px 30px 20px; 
+     padding: 50px 40px 30px; 
+     padding: 50px 40px; 
+     padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 10px; 
+
+     margin: 50px 40px 30px 20px; 
+     margin: 50px 40px 30px; 
+     margin: 50px 40px; 
+     margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    margin-right: 10px; 
+    font-size: 3rem;
+     width: 500px; 
+     width: 40%; 
+
+     min-width: 250px;
+    max-width: 550px; 
+
+     width: 350px;
+    height: 450px; 
+
+    width: 350px;
+    margin: 100px auto;
+}
+
+ p{
+    font-size: 2rem;
+    border: 2px solid red;
+    height: 150px;
+    overflow: scroll;
+}  */
+
+
+/* Display
+Inline
+Block
+Inline-block
+none
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+p{
+    display: inline;
+    margin: 100px 50px;
+    width: 500px;
+    height: 500px;
+
+}
+a{
+    display: block;
+    margin-top: 20px;
+}
+
+img{
+    width: 150px;
+    display: none;
+    visibility: hidden;
+}*/
+
+@font-face {
+    font-family: poppins;
+    src: url('./fonts/Poppins-Light.ttf');
+}
+
+* {
+    font-family: poppins;
+    font-weight: 100;
+}
+
+div {
+    border: 2px solid red;
+    /* box-shadow: 2px 2px 5px #777777; */
+    /* border-radius:75% 25% 37% 63% / 0% 61% 39% 100% ; */
+}
+
+/* h1{
+    text-shadow: 2px 2px #777777;
+} */
+
+h1{
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+
+p{
+    /* line-height: 80px; */
+    word-spacing: 30px;
+}
