@@ -1,0 +1,91 @@
+/* psuedo classes */
+
+/* h1:hover {
+    background-color: red;
+    color: white;
+}
+
+p:first-letter{
+    font-size: 3rem;
+}
+p:first-line{
+    color: purple;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: purple;
+} */
+
+/* input:focus{
+    background-color: red;
+    color: wheat;
+} */
+/* input:active{
+    background-color: red;
+    color: wheat;
+} */
+
+
+/* positioning
+relative
+absolute
+fixed
+static
+
+*/
+
+.parent{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    height: 200vh;
+    margin-bottom: 100rem;
+}
+
+.children{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color: red;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    /* z-index: 2; */
+}
+.green{
+    background-color: green;
+    /* position: absolute;
+    bottom: 20px;
+    right: 20px; */
+    /* z-index: 1; */
+}
+.blue{
+    background-color: blue;
+    /* position: fixed; */
+    /* left: 0; */
+    position: sticky;
+    top: 250px;
+}
+/* 
+.anchor{
+    position: relative;
+    top: 50px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
