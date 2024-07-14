@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: "futurak";
+    src: url(../fonts/futurak.ttf);
+}
+
+/* navbar started */
+.logo-img{
+    width: 165px;
+}
+.nav-item{
+    font-size: 2rem;
+}
+.navbar{
+    padding: 15px;
+}
+
+.franchise-btn{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 20px 25px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+}
+
+.order-btn{
+    background-color: #ed1c24;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+}
+
+.circle-btn{
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: #ed1c24;
+    margin-left: 5px;
+}
+
+.arrow-icon{
+    font-size: 1.5rem;
+}
+/* navbar ended */
+
+
+.restaurant-font{
+    font-size: 4rem;
+}
+.font-futuruk{
+    font-family: futurak;
+    font-size: 5rem;
+    letter-spacing: 3px;
+}
+.img-restaurant{
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 3px;
+}
+
+.restaurant-btn{
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    padding: 15px 55px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    width: 200px;
+}
