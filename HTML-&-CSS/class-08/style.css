@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+
+/* jo container banayenga usko usi waqt responsive krainga.
+
+appna apni website ma position relative left right pixels ma jo deta hain. us sa guraiz krna ha.
+
+margin left right ya sab cheezain nahi deni
+
+px ka kam sa kam use krna haa.. 
+border width
+border radius
+
+container yaani boxes ka liya %
+
+
+*/
+
+/* @media(max-width: 1536px){
+    body{
+        background-color: orange;
+    }
+}
+@media(max-width: 1280px){
+    body{
+        background-color: blue;
+    }
+}
+@media(max-width: 1024px){
+    body{
+        background-color: green;
+    }
+}
+
+
+@media(max-width: 768px){
+    body{
+        background-color: red;
+    }
+}
+
+@media(max-width: 640px){
+    body{
+        background-color: black;
+    }
+} */
+
+/* body{
+    background-color: azure;
+}
+
+@media(min-width: 640px){
+    body{
+        background-color: black;
+    }
+}
+@media(min-width: 1000px){
+    body{
+        background-color: red;
+    }
+} */
+
+
+/* h1{
+    font-size: 6rem;
+}
+
+p{
+    font-size: 4rem;
+}
+
+@media(max-width: 700px){
+    html{
+        font-size: 40%;
+    }
+} */
+
+a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: white;
+}
+
+.logo-img{
+    width: 168px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    font-size: 3rem;
+}
+.nav-items{
+    display: flex;
+    gap: 20px;
+}
+.menu{
+    display: none;
+}
+
+@media(max-width: 1000px){
+    .menu{
+        display: block;
+    }
+
+    .nav-items{
+        display: none;
+    }
+}
