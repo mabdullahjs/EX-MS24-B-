@@ -123,13 +123,10 @@
 
 
 
-// console.log(20 > 10 || 20 < 10 && 20 != "20"); //
+// console.log(20 > 10 || 20 < 10 && 20 != "20");
 
-// // true || false && false
-// // true || true
-
-
-
+// true || false && false
+// true || false
 
 
 // false || false
