@@ -1,0 +1,23 @@
+.head{
+    text-align: center;
+    margin: 10px;
+}
+
+.card{
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
