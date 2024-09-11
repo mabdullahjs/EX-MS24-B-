@@ -112,7 +112,7 @@ const cartItems = []
 
 const div = document.querySelector("#items");
 
-phones.map((item , index)=>{
+phones.map((item, index) => {
     div.innerHTML += `
     <div class="card bg-dark text-light border-light" style="width: 18rem;">
             <div class="card-body">
@@ -127,10 +127,22 @@ phones.map((item , index)=>{
 
 
 
-function addToCart(index){
-    cartItems.push(phones[index])
-    console.log(cartItems);
-    
+function addToCart(index) {
+    Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: "Item added to cart",
+        showConfirmButton: false,
+        timer: 1500
+    });
+    if (cartItems.includes(phones[index])) {
+        const itemIndex = cartItems.indexOf(phones[index])
+        cartItems[itemIndex].quantity += 1;
+
+    } else {
+        phones[index].quantity = 1
+        cartItems.push(phones[index])
+    }
 }
 
 
@@ -138,7 +150,12 @@ function addToCart(index){
 
 
 
+const checkoutBtn = document.querySelector("#checkout-btn");
 
+checkoutBtn.addEventListener("click" , ()=>{
+    localStorage.setItem("cartItem" , JSON.stringify(cartItems))
+    window.location = "checkout.html"
+})
 
 
 
